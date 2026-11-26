@@ -15,6 +15,7 @@ import {
   X,
 } from 'lucide-react';
 import { NAV_ITEMS, SITE_INFO } from '../data/siteData';
+import { asset } from '../utils/asset';
 
 const LEGAL_DOCS = {
   popia: {
@@ -111,7 +112,7 @@ export default function Footer({ onOpenBooking }) {
           <div className="space-y-5">
             <div className="inline-block bg-white px-4 py-2.5 rounded-xl">
               <img
-                src="/images/nca-logo.png"
+                src={asset('images/nca-logo.png')}
                 alt="NCA Associates"
                 className="h-9 w-auto object-contain"
               />

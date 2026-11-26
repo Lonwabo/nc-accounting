@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Search, CheckCircle2, Calendar, Sparkles } from 'lucide-react';
 import { SERVICE_CATEGORIES, SITE_INFO } from '../data/siteData';
+import { asset } from '../utils/asset';
 
 const GROUPS = [
   'All',
@@ -58,7 +59,7 @@ export default function ServicesPage({ onOpenBooking }) {
           {/* Nadia Credential Pill */}
           <div className="bg-white/10 backdrop-blur-md border border-white/15 rounded-2xl p-4 flex items-center gap-4 shrink-0">
             <img
-              src="/images/nadia-cronje.jpg"
+              src={asset('images/nadia-cronje.jpg')}
               alt="Nadia Cronje"
               className="w-14 h-14 rounded-xl object-cover object-top"
             />

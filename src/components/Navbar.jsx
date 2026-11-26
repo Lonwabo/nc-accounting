@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import { NAV_ITEMS, SITE_INFO } from '../data/siteData';
 import { useTheme } from '../context/ThemeContext';
+import { asset } from '../utils/asset';
 
 export default function Navbar({ onOpenBooking }) {
   const [scrolled, setScrolled] = useState(false);
@@ -111,7 +112,7 @@ export default function Navbar({ onOpenBooking }) {
             aria-label="NCA Associates Home"
           >
             <img
-              src="/images/nca-logo.png"
+              src={asset('images/nca-logo.png')}
               alt="NCA Associates Logo"
               className="h-9 sm:h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]"
             />

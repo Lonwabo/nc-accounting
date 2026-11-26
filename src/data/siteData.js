@@ -1,3 +1,5 @@
+import { asset } from '../utils/asset';
+
 export const SITE_INFO = {
   name: 'NCA Associates',
   legalName: 'Nadia Cronje and Associates (Pty) Ltd.',
@@ -269,7 +271,7 @@ export const ASSOCIATIONS = [
   {
     name: 'Sage Pastel',
     shortName: 'Sage Pastel',
-    logo: '/images/associations/sage-pastel.png',
+    logo: asset('images/associations/sage-pastel.png'),
     category: 'Accounting Software Partner',
     description: [
       "Sage Pastel is South Africa's leading developer of accounting, payroll, ERP and business software for the small, medium and large enterprise market. Founded in 1989, Sage Pastel has developed an in-depth knowledge and understanding of the industry, establishing itself as the market leader and the preferred choice of South African businesses.",
@@ -279,7 +281,7 @@ export const ASSOCIATIONS = [
   {
     name: 'South African Institute of Professional Accountants (SAIPA)',
     shortName: 'SAIPA',
-    logo: '/images/associations/saipa.jpg',
+    logo: asset('images/associations/saipa.jpg'),
     category: 'Professional Regulatory Body',
     description: [
       'SAIPA (the South African Institute of Professional Accountants) has launched its Centre of Excellence for quality tax practitioners wishing to specialise in the field of taxation to meet a higher standard of distinction.',
@@ -289,7 +291,7 @@ export const ASSOCIATIONS = [
   {
     name: 'Fasset',
     shortName: 'Fasset',
-    logo: '/images/associations/fasset.jpg',
+    logo: asset('images/associations/fasset.jpg'),
     category: 'Sector Education & Training Authority',
     description: [
       'Fasset is the Sector Education and Training Authority (SETA) for Finance, Accounting, Management Consulting and other Financial Services. 25 SETAs were established in March 2000 in terms of the Skills Development Act, to cover all sectors in South Africa, including government. The members of a SETA include employers, trade unions, professional bodies, government departments and bargaining councils, where relevant, from each industrial sector. The SETA landscape was revised to 23 SETAs in 2005 and to 21 SETAs in 2010. Visit www.dhet.gov.za for further information regarding SETAs.',
@@ -298,7 +300,7 @@ export const ASSOCIATIONS = [
   {
     name: 'South African Revenue Service (SARS)',
     shortName: 'SARS',
-    logo: '/images/associations/sars.jpg',
+    logo: asset('images/associations/sars.jpg'),
     category: 'National Tax Authority',
     description: [
       "The South African Revenue Service (SARS) is the nation's tax collecting authority. Established in terms of the South African Revenue Service Act 34 of 1997 as an autonomous agency, SARS is responsible for administering the South African tax system and customs service.",
@@ -307,7 +309,7 @@ export const ASSOCIATIONS = [
   {
     name: 'Companies and Intellectual Property Commission (CIPC)',
     shortName: 'CIPC',
-    logo: '/images/associations/cipc.jpg',
+    logo: asset('images/associations/cipc.jpg'),
     category: 'Company & IP Regulatory Commission',
     description: [
       "The Companies and Intellectual Property Commission (CIPC), referred to as 'the Commission', was established through the amalgamation of the Office of Companies and Intellectual Property Enforcement (OCIPE) and the Companies and Intellectual Property Registration Office (CIPRO). The Commission is a juristic person, and as mandated by the Companies Act, 2008 (Act 71 of 2008), has jurisdiction throughout the Republic, is independent, and subject only to the Constitution and the law and any policy statement, directive or request issued to it by the Minister of Trade and Industry in terms of this Act. The Commission must be impartial and perform its functions without fear, favour or prejudice and must exercise its functions in the most cost-efficient and effective manner and in accordance with the values and principles mentioned in section 195 of the Constitution.",
@@ -321,7 +323,7 @@ export const NEWS_ARTICLES = [
     title: 'New Features in Version 12',
     date: '08 July 2019',
     category: 'Sage Pastel Update',
-    image: '/images/associations/pastel-news.png',
+    image: asset('images/associations/pastel-news.png'),
     excerpt:
       'Manage your VAT periods and reporting using the new Sage Pastel Tax Manager. Closing VAT periods is essential to ensure correct VAT reporting to SARS and VAT reconciliations.',
     sections: [
@@ -348,7 +350,7 @@ export const NEWS_ARTICLES = [
     title: 'SAIPA Urgent Notification',
     date: '08 July 2019',
     category: 'Regulatory Notice',
-    image: '/images/associations/saipa.jpg',
+    image: asset('images/associations/saipa.jpg'),
     excerpt:
       'It has come to our attention that an individual by the name of David Bongani Msomi is offering final year accounting students accounting positions at a firm called Nemcorp. SAIPA wishes to distance itself from both Msomi and Nemcorp.',
     sections: [

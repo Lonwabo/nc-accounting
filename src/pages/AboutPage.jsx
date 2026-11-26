@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 import { ABOUT_CONTENT, SITE_INFO } from '../data/siteData';
 import GoogleReviewsSection from '../components/GoogleReviewsSection';
+import { asset } from '../utils/asset';
 
 export default function AboutPage({ onOpenBooking }) {
   return (
@@ -52,7 +53,7 @@ export default function AboutPage({ onOpenBooking }) {
             <div className="bg-[#f8f8f8] dark:bg-[#18181d] rounded-3xl p-4 border border-zinc-200/80 dark:border-zinc-800 shadow-lg">
               <div className="rounded-2xl overflow-hidden bg-white aspect-[4/5]">
                 <img
-                  src="/images/nadia-cronje.jpg"
+                  src={asset('images/nadia-cronje.jpg')}
                   alt="Nadia Cronje — NCA Associates"
                   className="w-full h-full object-cover object-top"
                 />

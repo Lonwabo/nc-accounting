@@ -24,6 +24,7 @@ import {
 } from '../data/siteData';
 import GoogleReviewsSection from '../components/GoogleReviewsSection';
 import MapAndContactSection from '../components/MapAndContactSection';
+import { asset } from '../utils/asset';
 
 const PILLAR_ICONS = {
   Calculator,
@@ -133,7 +134,7 @@ export default function HomePage({ onOpenBooking }) {
                 <div className="relative bg-white dark:bg-[#1c1c22] rounded-[1.75rem] p-3 shadow-2xl border border-transparent dark:border-zinc-800">
                   <div className="relative rounded-[1.25rem] overflow-hidden bg-gradient-to-b from-zinc-50 to-zinc-100 aspect-[4/5]">
                     <img
-                      src="/images/nadia-cronje.jpg"
+                      src={asset('images/nadia-cronje.jpg')}
                       alt="Nadia Cronje — Founder & SAIPA Professional Accountant"
                       className="w-full h-full object-cover object-top"
                     />
@@ -286,12 +287,12 @@ export default function HomePage({ onOpenBooking }) {
                 </p>
                 <div className="flex flex-wrap items-center gap-6 bg-white rounded-xl p-4">
                   <img
-                    src="/images/associations/sage-pastel.png"
+                    src={asset('images/associations/sage-pastel.png')}
                     alt="Sage Pastel Business Partner"
                     className="h-11 w-auto object-contain"
                   />
                   <img
-                    src="/images/associations/saipa.jpg"
+                    src={asset('images/associations/saipa.jpg')}
                     alt="SAIPA Professional Accountant"
                     className="h-11 w-auto object-contain"
                   />
